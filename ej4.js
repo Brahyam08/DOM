@@ -22,4 +22,4 @@ switch (edad) {
         break;
 }
 
-edad < 18 ? (document.getElementById("div3").innerHTML = `<p>Hola ${nombre} eres menor de edad ternario</p>`) (document.getElementById("div3").style.color ="red") : (document.getElementById("div3").innerHTML = `<h2>Hola ${nombre} eres mayor de edad ternario</h2>`) (document.getElementById("div3").style.color = "green");
+edad < 18 ? (document.getElementById("div3").innerHTML = `<p>Hola ${nombre} eres menor de edad ternario</p>`)(document.getElementById("div3").style.color = "red") : (document.getElementById("div3").innerHTML = `<h2>Hola ${nombre} eres mayor de edad ternario</h2>`)(document.getElementById("div3").style.color = "green");
